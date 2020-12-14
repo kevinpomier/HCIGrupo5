@@ -10071,7 +10071,7 @@ img::-moz-selection {
   height: 1.5rem;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "signika", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.95rem;
   color: #359196;
   letter-spacing: 0.0625em;
@@ -10097,8 +10097,8 @@ img::-moz-selection {
     transition: height 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
     background-color: #E4832F;
   }
   #mainNav.navbar-shrink .navbar-brand {
@@ -10485,4 +10485,19 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: center;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.espacioheader{
+  margin-top: 150px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: row;
+}
+.filtro{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+.cards{
+  display: flex;
+  flex-direction: row;
 }
