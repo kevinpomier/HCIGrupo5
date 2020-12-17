@@ -1,0 +1,193 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Agency - Start Bootstrap Theme</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <img style="height: 50px; width:150px; float: left;" src="assets/img/navbar-logo.png" alt="" href="#page-top"/></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menú
+                <i class="fas fa-bars ml-1"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ml-auto">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="http://localhost/HCIGrupo5/pasantiasempresa"><b>Pasantías</b></a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="http://localhost/HCIGrupo5/logueadoEmpresa"><b>Publicar</b></a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="http://localhost/HCIGrupo5/pasantes"><b>Postulantes</b></a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="http://localhost/HCIGrupo5/index"><b>Cerrar Sesión</b></a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Masthead-->
+
+    <div class="espacioheader">
+
+        <div class="filtro">
+            Filtros
+            <div>
+                <form class="form-inline ">
+                    <i class="fas fa-search" aria-hidden="true"></i>
+                    <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search"
+                        aria-label="Search">
+                </form>
+            </div>
+            <div class="form-group">
+                <label for="inputState">Ciudad:</label>
+                <select class="selectdiv">
+                    <option value="0">La Paz</option>
+                    <option>Cochabamba</option>
+                    <option>Santa Cruz</option>
+                    <option>Oruro</option>
+                    <option>Chuquisaca</option>
+                    <option>Potosí</option>
+                    <option>Beni</option>
+                    <option>Pando</option>
+                  </select>
+            </div>
+
+            <div>
+               <label> Edad:</label> 
+            </div>
+            
+            <div class="slidecontainer">
+                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                <br>
+                <p><span id="demo"></span> años</p>
+              </div>
+              
+              <script>
+              var slider = document.getElementById("myRange");
+              var output = document.getElementById("demo");
+              output.innerHTML = slider.value;
+              
+              slider.oninput = function() {
+                output.innerHTML = this.value;
+              }
+              </script>
+            <div>
+                <label> Carrera:</label> 
+             </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Administrador</label>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Ing. Sistemas</label>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Abogado</label>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Ninguno</label>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="assets/img/team/1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Gisela Armas</h5>
+                            <p class="card-text">Carrera: Ingenieria Comercial</p>
+                            <a href="http://localhost/HCIGrupo5/descargarCurriculum" class="btn btn-primary">Mostrar más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="assets/img/team/2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Benjamin Cazorla</h5>
+                            <p class="card-text">Carrera: Diseño gráfico</p>
+                            <a href="http://localhost/HCIGrupo5/descargarCurriculum"  class="btn btn-primary">Mostrar más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="assets/img/team/3.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Jennifer Riquelme</h5>
+                            <p class="card-text">Carrera: Arquitectura</p>
+                            <a href="http://localhost/HCIGrupo5/descargarCurriculum"  class="btn btn-primary">Mostrar más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card" style="width: 18rem; margin-top: 20px;">
+                        <img class="card-img-top" src="assets/img/perfil.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Maria Elvira Torre</h5>
+                            <p class="card-text">Carrera: Derecho</p>
+                            <a href="http://localhost/HCIGrupo5/descargarCurriculum"  class="btn btn-primary">Mostrar más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card" style="width: 18rem; margin-top: 20px;">
+                        <img class="card-img-top" src="assets/img/perfil5.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Jose Andres Arroyo</h5>
+                            <p class="card-text">Carrera: Medicina</p>
+                            <a href="http://localhost/HCIGrupo5/descargarCurriculum"  class="btn btn-primary">Mostrar más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card" style="width: 18rem; margin-top: 20px;">
+                        <img class="card-img-top" src="assets/img/perfil6.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Francisco Fuente</h5>
+                            <p class="card-text">Carrera: Derecho</p>
+                            <a href="http://localhost/HCIGrupo5/descargarCurriculum" class="btn btn-primary">Mostrar más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            </div>
+        </div>
+
+
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+
+
+</body>
+
+</html>
