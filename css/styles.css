@@ -64,7 +64,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color:  #1D858A;
+  color:  #01575B;
   text-align: left;
   background-color: #fff;
 }
@@ -72,6 +72,7 @@ body {
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
+
 
 hr {
   box-sizing: content-box;
@@ -159,7 +160,7 @@ sup {
 }
 
 a {
-  color: #fed136;
+  color: #5CB0B4;
   text-decoration: none;
   background-color: transparent;
 }
@@ -1717,11 +1718,11 @@ pre code {
 }
 
 .table-hover .table-primary:hover {
-  background-color: #ffecae;
+  background-color:transparent;
 }
 .table-hover .table-primary:hover > td,
 .table-hover .table-primary:hover > th {
-  background-color: #ffecae;
+  background-color:transparent;
 }
 
 .table-secondary,
@@ -2448,8 +2449,8 @@ fieldset:disabled a.btn {
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #974601;
-  background-color: #F7A157;
-  border-color: #F7A157;
+  background-color: #5CB0B4;
+  border-color: #5CB0B4;
   box-shadow: 0 0 0 0.2rem rgba(254, 216, 84, 0.5);
 }
 .btn-primary.disabled, .btn-primary:disabled {
@@ -2677,28 +2678,28 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #fed136;
-  border-color: #fed136;
+  color: #E4832F;
+  border-color: #E4832F;
 }
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: transparent;
+  border-color: transparent;
 }
 .btn-outline-primary:focus, .btn-outline-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(254, 209, 54, 0.5);
+  box-shadow: 0 0 0 0.2rem #E4832F;
 }
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
-  color: #fed136;
+  color: #E4832F;
   background-color: transparent;
 }
 .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active, .show > .btn-outline-primary.dropdown-toggle {
   color: #fff;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #E4832F;
+  border-color: #E4832F;
 }
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(254, 209, 54, 0.5);
+  box-shadow: 0 0 0 0.2rem #E4832F;
 }
 
 .btn-outline-secondary {
@@ -10055,7 +10056,7 @@ img::-moz-selection {
   padding: 0.75rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.75rem;
-  color: #fff;
+  color: #01575B;
   text-transform: uppercase;
   background-color: #E4832F;
   border: 0;
@@ -10570,8 +10571,9 @@ fieldset:disabled a.btn {
 }
 
 .botonPublicar{
-  margin-top: -150px;
-  margin-left: 1000px;
+  margin-top: 0px;
+  margin-right: 20px;
+  justify-content: center;
 }
 
 
@@ -10760,7 +10762,7 @@ color: #FFBC82;
   background: #5CB0B4;
   padding:30px;
   color: #01575B;
-  margin-right: 200px;
+  margin-right: 120px;
   margin-bottom: 180px;
   display: flex;
   flex-direction: column;
@@ -10768,3 +10770,33 @@ color: #FFBC82;
   align-content: center;
   justify-content:center;
 }
+.btn-success:active:focus {
+  color: #ffffff; 
+  background-color: #161617;
+  border-color: #494F57;
+}
+
+.espacioregistro{
+  margin-top: 150px;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #5CB0B4;
+    background: #5CB0B4;
+    padding:80px;
+}
+.espacioheaderpubli{
+  margin-top: 150px;
+  margin-left: 60px;
+margin-right: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+  align-content: center;
+}
+
+
+
